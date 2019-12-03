@@ -1,14 +1,25 @@
+/* define gobal, reusable values here */
+:root {
+  --primary: rgba(80, 140, 210, 1);
+
+  /* SIZES */
+  --super-small: 89px;
+}
+
 .App {
   text-align: center;
 }
-
+.Logo {
+  color: var(--primary);
+  font-size: 55px;
+}
 .App-logo {
   height: 40vmin;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 40vh;
   display: flex;
   flex-direction: column;
   align-items: center;
