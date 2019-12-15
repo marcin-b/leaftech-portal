@@ -1,0 +1,24 @@
+input {
+	padding: 8px 8px;
+}
+input:not([type^="submit"]) {
+	border: solid;
+	border-width: 1px;
+	border-color: var(--gray70);
+}
+input:focus {
+	outline: none;
+	border-color: var(--gray30);
+}
+input[type="email"],
+input[type="password"] {
+	width: 200px;
+}
+input[type="submit"] {
+	cursor: pointer;
+	width: 200px;
+	margin-top: 16px;
+	text-transform: uppercase;
+	background-color: var(--primary);
+	color: var(--white);
+}

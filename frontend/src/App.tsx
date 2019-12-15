@@ -1,16 +1,8 @@
 import React from "react";
-import LoginForm from "./components/LoginForm"
-import "./App.css";
+import Router from "./Router";
 
 const App: React.FC = () => {
-	return (
-		<div className="App">
-			<header className="App-header">
-				<div className="Logo">LEAFTECH.</div>
-			</header>
-			<LoginForm />
-		</div>
-	);
+	return <Router />;
 };
 
 export default App;
